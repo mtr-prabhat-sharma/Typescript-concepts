@@ -1,0 +1,1 @@
+1.  Union: In Typescript, a union type is a special type which is denoted by pipe symbol (|) in which we can assign multiple types to a single variable.
