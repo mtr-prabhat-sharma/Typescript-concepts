@@ -3,3 +3,5 @@
 2. Enums: Enums allows us to define a set of named constants. TypeScript provides both numeric and string-based enums.
 
 3. Tuples: In TypeScript, a tuple is a data structure that allows you to define an ordered collection of elements, each with a specific type. Tuples are similar to arrays but have a fixed length and the types of their elements are known at compile time
+
+4. Type annotations: Type annotations are a crucial concept in TypeScript. They allow developers to specify the data types of variables, function parameters, and return types. This can help catch errors during development and improve code readability.
