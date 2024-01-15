@@ -10,3 +10,6 @@
 
 6. Generic: In typescript, Generic allow us to create resuable functions and classes that can work with different data types.
 They provide a powerful way to create reusable and type-safe code.
+
+7. Type Inference: It is a feature of Type Script that allows us to omit the type of variable. Type Script automatically 
+inference the type of the variable on the basis of value assigned to the variable.
