@@ -7,3 +7,6 @@
 4. Type annotations: Type annotations are a crucial concept in TypeScript. They allow developers to specify the data types of variables, function parameters, and return types. This can help catch errors during development and improve code readability.
 
 5. Interfaces: In typescript Interfaces are used to define the structure of an object. The specify the name and type of object properties. It also helps in consistency across multiple objects.
+
+6. Generic: In typescript, Generic allow us to create resuable functions and classes that can work with different data types.
+They provide a powerful way to create reusable and type-safe code.
