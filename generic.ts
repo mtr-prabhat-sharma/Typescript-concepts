@@ -1,7 +1,20 @@
 // Generic function that takes an argument of type T
+// Generics are like placeholders for types
+
+// Without using Generics
+
+function identityNumber(num: number): number {
+  return num;
+}
+
+function identityString(str: string): string {
+  return str;
+}
+
+// With use of Generics
 function identity<T>(arg: T): T {
     return arg;
-  }
+ }
   
   // Using the generic function with different types
   let result1: number = identity<number>(42); // Type of result1 is number
