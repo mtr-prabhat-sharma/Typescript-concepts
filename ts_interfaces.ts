@@ -11,3 +11,19 @@ const person: Person = {
     age: 31
 }
 console.log(person) // { name: 'Jhon', age: 31 }
+
+// Partial is a built-in utility type in TypeScript.
+// It takes an interface (or type) and makes all of its properties optional.
+
+interface User {
+  name: string;
+  age: number;
+}
+
+let u2: Partial<User> = {
+  name: "Prabhat", // ✅ only 'name'
+};
+
+let u3: Partial<User> = {
+  age: 22,         // ✅ only 'age'
+};
