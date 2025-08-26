@@ -13,3 +13,5 @@ They provide a powerful way to create reusable and type-safe code.
 
 7. **Type Inference**: It is a feature of Type Script that allows us to omit the type of variable. Type Script automatically 
 inference the type of the variable on the basis of value assigned to the variable.
+
+8. **Mapped Type**: With the help of Mapped Type we can take an existing type and create a new type by transforming its properties
